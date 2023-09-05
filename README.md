@@ -42,4 +42,5 @@
   * 모든 docker 명령어 사용시 앞에 sudo 명령어를 붙일 것!!! (비밀번호를 입력요구할 시 비밀번호 추가 입력)
   * 실습 환경을 타 학생과 공유 하므로, 실습이 끝나고 난 뒤 반드시 자신이 수행중인 컨테이너를 삭제할 것!!!!!
     + 삭제 예 : sudo docker stop f7a3c7c4728e && sudo docker rm f7a3c7c4728e
+      
       ![remove](./images/remove.jpg)
