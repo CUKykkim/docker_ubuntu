@@ -23,6 +23,11 @@
 - 클라우드 실습시 주의 사항
 
   * 실습 환경을 타 학생과 공유 하므로, 실습이 끝나고 난 뒤 반드시 자신이 수행중인 컨테이너를 삭제할 것!!!!!
-    + 삭제 예 : docker rm -f $(docker ps -aq)
+    + 삭제 명령어 (모든 컨테이너 기동 중지 및 삭제)
+
+       ```
+       docker rm -f $(docker ps -aq)
+       ```
+
       
       ![remove](./images/remove.jpg)
